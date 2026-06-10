@@ -187,7 +187,7 @@ describe('Gerenciador de Atividades', () => {
     });
   });
 
-  it('Cenário 8: Obrigatoriedade do motivo na rejection de atividade', () => {
+  it('Cenário 8: Obrigatoriedade do motivo na rejeição de atividade', () => {
     cy.get('table tbody tr').first().find('td').eq(1).invoke('text').then((nomeAtividadeAlvo) => {
       dashboardPage.primeiroDropdownStatusTabela.select('Rejeitada');
       dashboardPage.botaoConfirmarRejeicao.click();
