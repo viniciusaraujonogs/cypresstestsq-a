@@ -20,3 +20,18 @@ cd cypresstestedq-a
 
 # Instalar as dependências do projeto de forma limpa (Cypress, TypeScript, etc.)
 npm ci
+
+🏃 Execução dos Testes Automatizados
+Você pode executar os testes em dois modos distintos:
+
+Modo Interativo (Cypress Runner UI)
+
+
+Bash
+npx cypress open
+
+Modo Headless (Execução em Background via Terminal)
+
+
+Bash
+npx cypress run --browser chrome
